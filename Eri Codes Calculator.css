@@ -1,0 +1,77 @@
+body {
+    background: #e0e5ec;
+    font-family: 'Poppins', sans-serif;
+  }
+  .container {
+    background: #e0e5ec;
+    width: 320px;
+    height: 569px;
+    border-radius: .5em;
+    box-shadow: -3px -3px 7px #ffffff73,
+                2px 2px 5px rgba(96, 105, 121, 0.288);
+    margin: 0 auto;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  .container .result {
+    width: 100%;
+    height: 150px;
+    box-shadow: inset 2px 2px 5px #c0c3ce,
+                inset -5px -5px 10px #fcf8f873; 
+    color: #ff007f; 
+  }
+  .container .result p {
+    font-size: 40pt;
+    overflow-y: auto;
+    text-align: right;
+  }
+  
+  .container .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    color: rgb(95, 93, 93);
+    font-weight: medium;
+  }
+  .container .buttons .button, .container .buttons .num-button  {
+    cursor: grab;
+    text-align: center;
+    width: 60px;
+    font-size:18px;
+    height: 60px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #c0c3ce,
+                -5px -5px 10px #fcf8f873;
+  }
+  .button:hover{
+    color: #ff007f;;
+  }
+  
+  /*Service Buttons*/
+  
+  .container .buttons .zero {
+    grid-column: 1/ 3;
+    width: 100%;
+    font-size:18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #c0c3ce,
+                -5px -5px 10px #fcf8f873;
+  }
+  .action-btn {
+    color: grey;
+    font-weight: bold;
+  }
+  .calc-action-btn{
+    color: #37e6bf;
+    font-size: 20px;
+    font-weight: bold;
+  }
+   .container .name{
+     font-size:13px;
+     color:#ff007f
+   }
+  
